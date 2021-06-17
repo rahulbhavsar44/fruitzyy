@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+
+
+section.login{
+
+    min-height: 80vh;
+    background: rgb(218, 218, 218);
+    justify-content: auto center;
+}
+.btn-primary{
+    background: rgb(66, 66, 66);
+    color: orangered;
+    padding: 8px 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: orangered;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 710;
+    cursor: pointer;
+}
+section.login .container{
+    max-width: 60rem;
+    margin: 0 10rem;
+}
+section.login .container .long-type{
+    width: 14rem;
+    height: 30px;
+    font-size: 14px;
+}
+section.login .container .center{
+    margin: 25px auto 0 auto;
+}
+section.login .input-data{
+    background: white;
+    background-color: white;
+    width: 20rem;
+    margin-left: 7rem;
+
+
+
+}
+input[type="file"]{
+background-color: greenyellow;
+font-size: 13px;
+cursor: pointer;
+}
+input[type="file"]:hover{
+
+    font-size: 13.1px;
+    cursor: pointer;
+}
+
+
+/* Table Property */
+
+
+section.top{
+    margin: 50px 300px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table th{
+    text-align: left;
+    background-color: #3a6070;
+    color: #fff;
+    padding: 4px 30px 4px 8px;
+}
+
+table td{
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+}

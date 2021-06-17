@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section.login{
+    padding-top: 12rem;
+    min-height: 100vh;
+    background: rgb(218, 218, 218);
+    display: flex;
+    justify-content: center;
+}
+section.login .box-card{
+    width: 100%;
+    max-width: 20rem;
+
+}
+section.login .box-card .form-style{
+    padding: 1.5rem 2rem 2rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    /* box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); */
+    text-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background-color: white;
+}
+section.login .box-card .form-style .user-box{
+    margin-bottom: 1rem;
+
+}
+section.login .box-card .form-style .user-box .user-label{
+    opacity: 1;
+    color: rgba(55, 65, 81, alpha);
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    display: block;
+
+}
+.btn-primary{
+    background: orangered;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 700;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: orangered;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    font-weight: 750;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+.text-blue-500:hover{
+    color: white;
+    transition: all 0.3s ease;
+}

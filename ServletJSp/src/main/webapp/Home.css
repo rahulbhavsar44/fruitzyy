@@ -1,0 +1,623 @@
+@charset "ISO-8859-1";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+
+
+
+.contaner22{
+    width: 100%;
+    padding:0 15px;
+    margin:0 auto;
+}
+header.topbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+}
+header.topbar .top-border{
+    
+    background: black;
+    padding: 6px 0px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+}
+header.topbar .top-border .contaner22{
+    overflow: hidden !important;
+  
+}
+header.topbar .top-border  .icons .image{
+        width: 45px;
+}
+@media(min-width: 576px) {
+    .contaner22{
+        max-width: 540px;
+    }
+}
+@media(min-width: 768px) {
+    .contaner22{
+        max-width: 720px;
+    }
+}
+@media(min-width: 992px) {
+    .contaner22{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .contaner22{
+        max-width: 1152px;
+    }
+}
+
+
+.topbar .auth > div a{
+    color: rgb(255, 255, 255);
+text-decoration: none;
+    
+
+}
+.topbar .auth{
+    padding: 0px 15px;
+}
+.topbar .auth:hover{
+    background: rgb(46, 45, 45);
+    border: solid 1px;
+} 
+.search-tab{
+
+    border: 1px solid white;
+    height: 28px;
+    width: 450px;
+    font-size: 17px;
+    justify-items: center;
+    color: gray;
+}
+.search-icon{
+    border: none;
+    background: grey;
+    width: 46px;
+    height: 32px;
+    border: none;
+
+}
+.search-icon:hover{
+    border: none;
+    background: orangered;
+    width: 46px;
+    height: 32px;
+    border: none;
+
+}
+header  .locate-search .search-container {
+	height: 30px;
+}
+header  .locate-search .search-container .search-icon img{
+    width:  28px;
+    margin-left: 5px;
+}
+header  .locate-search .search-container .search-icon img:hover{
+    width:  32px;
+    margin-left: 5px;
+}
+.navbar .contaner{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 1px;
+}
+header  .auth .my-account{
+    font-size: 18px;
+}
+header  .auth .my-account:hover{
+    color: blanchedalmond;
+    font-size: 18px;
+}
+header  .auth .login-creds{
+    font-size: 14px;
+}
+header  .auth .login-creds:hover{
+    font-size: 14px;
+    color: blanchedalmond;
+}
+header  .auth .login-creds .divider{
+    color: white;
+    margin-right: 5px;
+}
+header  .auth .login-creds > div{
+    margin-right: 5px;
+}
+header  .auth .login-creds > div{
+    margin-right: 5px;
+}
+header.topbar .top-border .cart-info .cart-card{
+    width: 80px;
+}
+header.topbar .top-border .cart-info .cart-card .cart{
+    width: 30px;
+    cursor: pointer;
+}
+header.topbar .top-border .cart-info .cart-card .cart:hover{
+    width: 33px;
+    cursor: pointer;
+}
+nav .top{
+	margin-top: 3rem;
+}
+nav .top .contaner22{
+    padding: 1rem 0;
+}
+nav .top .contact h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.055rem;
+    text-decoration: none;
+}
+nav .top .contact h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.055rem;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+nav .top .contact .call-time-mail{
+	margin-left: 12px;
+}
+nav .top .time .call-time-mail{
+	margin-left: 12px;
+}
+nav .top .time h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.055rem;
+    text-decoration: none;
+}
+nav .top .time h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.055rem;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+nav .navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+}
+nav .navbar a.active{
+    background: orange;
+    color: white;
+}
+nav .navbar a:hover{
+    background: orange;
+    color: white;
+}
+.navbar.magic-shadow{
+    position: relative;
+    
+    
+}
+.left-icon{
+    border-radius: 100%;
+    width: 30px;
+    cursor: pointer;
+}
+
+.magic-shadow:after{
+content: '';
+display:block;
+width: 100%;
+height: 69px;
+position: absolute;
+bottom: -40px;
+background-repeat: no-repeat;
+z-index: -1;
+}
+nav.nav-2 .hero{
+
+    height: 600px;
+    background-image: url('hero.png');
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+nav.nav-2 .hero .intro-left{
+	margin-top: 3rem;
+}
+
+nav.nav-2 .hero  .welcome .fruitzyy-small{
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+
+section.hero-box nav .navbar .contaner
+{
+    box-shadow: 0px 2.5px 0px rgb(182, 175, 175);
+    margin: 0px auto;
+    width: 800px;
+    border-radius: 1px;
+
+}
+nav.nav-2 .hero .welcome span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+nav.nav-2 .hero .welcome{
+    margin-bottom: 0.25rem;
+}
+nav.nav-2 .hero h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+nav.nav-2 .hero h1 span{
+    color: orange;
+}
+nav.nav-2 .hero p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: auto;
+    line-height: 1.5;margin-bottom: 1rem;
+}
+nav.nav-2 .hero .straw-class{
+	margin-left: 12rem;
+}
+nav.nav-2 .hero .hero-image{
+    
+    top: -40px;
+    right: 100px;
+    overflow: hidden;
+    
+
+    
+}
+.btn{
+    padding: 0.50rem 0.75rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+
+}
+.btn-primary{
+    background: orange;
+    color: blanchedalmond;
+}
+.btn-primary:hover{
+    background: blanchedalmond;
+    color: orange;
+    border: 1px solid orange;
+}
+.btn-wrapper .btn-secondary a{
+	text-decoration: none;
+	    color: blanchedalmond;
+}
+.btn-wrapper .btn-secondary a:hover{
+ background: blanchedalmond;
+    color: black;
+
+}
+.btn-secondary{
+    background: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+.btn-secondary:hover{
+    background: blanchedalmond;
+    color: black;
+    border: 1px solid black;
+}
+header.hero button:first-child{
+    margin-right: 0.50rem;
+}
+
+.fruitzyy{
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    font-size: 50px;
+}
+nav .top .contaner{
+    margin-top: 30px;
+}
+nav .top  .branding .market{
+    font-size: 20px;
+}
+nav  .branding > span{
+    color: black;
+    margin-left: 90px;
+    font-family: fantasy;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+section{
+    padding: 4rem 0;
+
+}
+section.top-products{
+    background: rgb(214, 214, 214);
+}
+.section-heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+
+
+
+}
+
+.top-sym{
+	    content: '';
+    display: block;
+	width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 4rem;	
+}
+.top-sym2{
+	    content: '';
+    display: block;
+	width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 5rem;
+    	
+}
+.top-sym3{
+	    content: '';
+    display: block;
+	width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    	
+}
+.top-products  .slider .food-slider{
+    overflow: hidden;
+
+}
+section.top-products .food-slider .food-card{
+    background: white;
+    padding: 1.5rem 0;
+    border-radius: 4px;
+    margin: 25px;
+    position: unset;
+    
+}
+section.top-products .food-slider .food-card .product-image img{
+    width: 50%;
+    height: 100px;
+    object-fit: contain;
+    padding-bottom: 1rem;
+}
+hr{
+    border: 0.5px solid rgb(130, 134, 138);
+    opacity: 0.8;
+}
+section.top-products .food-slider .food-card .flex a{
+    text-decoration: none;
+
+}
+section.top-products .food-slider .food-card h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+}
+section.top-products .food-slider .food-card .text-center{
+    text-align: center;
+    color: gray;
+    font-size: 22px;
+    margin-bottom: 10px;
+    
+
+
+}
+section .text-center1{
+    text-align: center;
+}
+section.top-products .food-slider .food-card .price .weight{
+    color: gray;
+    font-size: 15px;
+    margin: 10px 20px 14px 20px;
+}
+section.top-products .food-slider .food-card .price{
+    font-family: cursive;
+    color: rgb(36, 33, 33);
+    margin-bottom: 1rem;
+    font-size: 18px;
+    margin: 3px 20px 0px 15px;
+}
+/* section.top-products .food-slider .food-card .money-cart{
+    margin-top: 2px;
+} */
+ section.top-products .food-slider .food-card .money-cart .btn-box{
+     margin-left: 15px;
+ }
+ section.top-products .food-slider .food-card .money-cart .btn-box .add-to-cart-text a{
+     text-decoration: none;
+     color: black;
+     
+ }
+ section.top-products .food-slider .food-card .money-cart .btn-box .add-to-cart-text a:hover{
+     text-decoration: none;
+     color: white;
+     
+ }
+section.top-products .food-slider .food-card button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background: white;
+    border: 2px solid  rgb(255, 166, 0);
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-items: center;
+    
+}
+.food-slider .food-card button img{
+    background: white;
+    padding: 0.40rem;
+    height: 15px;
+    
+    margin-right: 1rem;
+    border: 1px solid white;
+    background-color: rgb(255, 166, 0);
+}
+section.top-products .food-slider .food-card button:hover{
+    /* border: 1px solid white; */
+    background: rgb(255, 166, 0);
+    color: white;
+ 
+    
+}
+.slick-slide{
+    margin: 0 27px;
+}
+.slick-list{
+    margin: 0 -27px;
+    
+}
+.top-products .slider{
+	position: relative;
+
+}
+.top-products .slider-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    
+} 
+section.top-products .slider .prev-btn{
+
+    top: 46%;
+    left: -3rem;
+    z-index: 1;
+    position: absolute;
+    background: orange;
+    border-radius: 100%;
+    width: 30px;
+    padding-right: 2px; 
+
+}
+
+section.top-products .slider .next-btn{
+
+    top: 46%;
+    right: -3rem;
+    z-index: 1;
+    position: absolute;
+	background: orange;
+	border-radius: 100%;
+    width: 30px;
+	padding-left: 2px;
+}
+
+.top-products .btn-wrapper{
+    margin-top: 4rem;
+}
+.magic-shadow-sm{
+    box-shadow: 0px 2.5px 0px rgb(182, 175, 175);
+}
+.magic-shadow-sm:after{
+    content: '';
+    display:block;
+    width: 100%;
+    height: 69px;
+    position: absolute;
+    bottom: -20px;
+    background-repeat: no-repeat;
+    z-index: -1;    
+}
+.all-fruits{
+    width: 350px;
+    height: 300px;
+
+}
+
+.flex-1{
+    flex: 1;
+}
+section.about-meal h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    color: black;
+    line-height: 1.3;
+
+}
+section.about-meal p{
+    line-height: 1.7;
+    margin-bottom: 4rem;
+}
+section.our-services{
+    background: rgb(196, 191, 191);
+    
+}
+section.our-services .service-card{
+    background: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 4px;
+    margin-right: 2rem;
+    padding-top: 4rem;
+    position: relative;
+}
+section.our-services .card-wrapper{
+    margin-left: 2rem;
+    margin-top: 8rem;
+}
+section.our-services .service-card .icon{
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+
+section.our-services .service-card h3{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+section.our-services .service-card p{
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.text-primary{
+    color: yellow;
+}
+
+

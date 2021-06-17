@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+
+
+nav.container{
+
+    margin-right: 5%;
+    background: rgb(250, 177, 41);
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+
+}
+
+nav.container .All-fruit{
+    width: 50px;
+    margin-left: 4rem;
+    padding: 4px 0;
+}
+nav.container .fruitzyy{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 19px;
+    align-items: center;
+    margin-left: 7px;
+    margin-top: 12px;
+
+}
+nav.container .Menu-clicks .offer-bar a{
+    font-size: 18px;
+    
+}
+nav.container .Menu-clicks .offer-bar:hover{
+    font-size: 18px;
+    color: cornsilk;
+}
+nav.container .Menu-clicks .register-bar a{
+    font-size: 18px;
+    
+}
+nav.container .Menu-clicks .register-bar:hover{
+    font-size: 18px;
+    color: cornsilk;
+}
+nav.container .Menu-clicks .menu-bar a{
+    font-size: 18px;
+    
+}
+nav.container .Menu-clicks .menu-bar:hover{
+    font-size: 18px;
+    color: cornsilk;
+}
+nav.container .Menu-clicks .login-bar a{
+    font-size: 18px;
+    
+}
+nav.container .Menu-clicks .login-bar:hover{
+    font-size: 18px;
+    color: cornsilk;
+}
+nav.container .Menu-clicks .cart-bar img a{
+    font-size: 12px;
+}
+nav.container .Menu-clicks .cart-bar img:hover{
+    font-size: 15px;
+    color: cornsilk;
+}
+nav.container .menu-bar-cart{
+    width: 60px;
+    color: black;
+    margin-right: 20px;
+
+ 
+}
+
+
+section.order-part .cb1 {
+    padding: 20px;
+  }
+  
+section.order-part .accordion {
+      background-color: #fff;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      position: sticky;
+    left: 200px;
+    top: 150px;
+  }
+  
+section.order-part .accordion h4 {
+      background-color: rgb(250, 177, 41);
+      color: black;
+      position: relative;
+      padding: 10px;
+      border-bottom: 1px solid #fff;
+      line-height: 1em;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 0 160px;
+      width: 50%;
+      position: sticky;
+      top: 500px;
+      left: 200px;
+  }
+section.order-part .container h1{
+      font-size: 28px;
+  }
+section.order-part .container h4{
+    font-size: 28px;
+}
+section.order-part .accordion h4 span{
+    margin-left: 30px;
+
+
+}
+section.order-part .accordion h4 span i{
+    font-size: 21px;
+    margin-left: 12px;
+}
+/* section.order-part .sticky-order{
+    
+} */
+
+
+
+section.empty-cart .container{
+    margin-left: 6rem;
+}

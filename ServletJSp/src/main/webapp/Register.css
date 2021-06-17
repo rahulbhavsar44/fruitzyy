@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+section.login{
+    padding-top: 6rem;
+    min-height: 100vh;
+    background: rgb(218, 218, 218);
+}
+.btn-primary{
+    background: rgb(66, 66, 66);
+    color: orangered;
+    padding: 8px 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background: orangered;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 710;
+    cursor: pointer;
+}
+section.login .container{
+    max-width: 50rem;
+}
+section.login .container .long-type{
+    width: 22rem;
+}
+section.login .container .center{
+    margin: 25px auto 0 auto;
+}
